@@ -16,7 +16,6 @@ const rl = readline.createInterface({
 });
 
 let cadena = "";
-let leetstr = "";
 let car = "";
 
 let leet = {
@@ -56,8 +55,6 @@ rl.question("Dame una cadena: ", (res) => {
 rl.on("close", () => {
   for (let i = 0; i < cadena.length; i++) {
     car = leet[cadena.charAt(i)] || cadena.charAt(i);
-    leetstr += car;
+    process.stdout.write(car);
   }
-
-  console.log(leetstr);
 });
