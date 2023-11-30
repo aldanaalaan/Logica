@@ -39,8 +39,7 @@ function Leet(cadena) {
     z: "2",
   };
 
-  for (let i = 0; i < cadena.length; i++) {
-    leetstr += leet[cadena.charAt(i)] || cadena.charAt(i);
-  }
-  return leetstr;
+  let cadenaArray = cadena.trim().toLowerCase().split("");
+
+  return cadenaArray.map((item) => leet[item] || item).join("");
 }
