@@ -1,0 +1,14 @@
+{
+  "name": "logica",
+  "version": "1.0.0",
+  "description": "Repositorio de ejercicios para practicar lógica",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AlanWP",
+  "license": "ISC"
+}
