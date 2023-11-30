@@ -7,3 +7,4 @@ Ejercicios
 0. [FizzBuzz](./00%20-%20FizzBuzz/FizzBuzz.md)
 1. [L33T](./01%20-%20L33T/L33T.md)
 2. [Tennis](./02%20-%20Tennis/Tennis.md)
+3. [Generador de contraseñas](./03%20-%20PasswordGenerator/PasswordGenerator.md)
